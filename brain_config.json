@@ -1,0 +1,8 @@
+{
+    "similarity_backends": {
+        "pgvector": {
+            "connection_string": "postgresql://postgres:letmein123@localhost:5432/photo-explorer",
+            "work_mem": "500MB"
+        }
+    }
+}
