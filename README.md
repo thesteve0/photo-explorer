@@ -31,3 +31,43 @@ docker start photo-explorer-postgres
 There are 2 different config files in the root of this repo. It is assumed you moved those to \<your home directory\>/.fiftyone
 
 The values in them match the two db instances we created above.
+
+----------------------
+
+### Plugins to install
+
+```shell
+fiftyone plugins download \
+    https://github.com/voxel51/fiftyone-plugins \
+    --plugin-names @voxel51/utils
+```
+
+```shell
+fiftyone plugins download https://github.com/jacobmarks/zero-shot-prediction-plugin
+```
+
+
+```shell
+fiftyone plugins download https://github.com/jacobmarks/image-quality-issues/
+```
+
+```shell
+fiftyone plugins download https://github.com/harpreetsahota204/moondream2-plugin
+```
+
+```shell
+fiftyone plugins download https://github.com/harpreetsahota204/janus-vqa-fiftyone
+```
+
+```shell
+fiftyone plugins download https://github.com/harpreetsahota204/aim-embeddings-plugin
+```
+
+-----------------------
+
+We are going to use delegated operators
+```shell
+fiftyone delegated launch 
+```
+
+
