@@ -124,11 +124,12 @@ torch==2.6.0
 torch-vision==0.1.6.dev0
 torchvision==0.21.0
 tqdm==4.67.1
-transformers==4.49.0
+transformers
 triton==3.2.0
 typing_extensions==4.12.2
 tzdata==2025.1
 tzlocal==5.3
+
 umap-learn==0.5.7
 universal-analytics-python3==1.1.1
 urllib3==2.3.0
@@ -139,3 +140,7 @@ wsproto==1.2.0
 xmltodict==0.14.2
 open_clip_torch
 pyvips
+bitsandbytes
+wordcloud
+git+https://github.com/deepseek-ai/Janus.git
+ultralytics
